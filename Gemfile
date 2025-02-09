@@ -9,4 +9,10 @@ group :development do
   gem 'sass', '~> 3.4', '>= 3.4.20'
   gem 'bourbon', '~> 4.2', '>= 4.2.6'
   gem 'pygments.rb', '~> 0.6.3'
+  gem 'base64'
+  gem 'logger'
+  gem 'did_you_mean'
+  gem 'thor'
 end
+
+gem "webrick", "~> 1.9"
